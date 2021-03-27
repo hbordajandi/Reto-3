@@ -1,0 +1,21 @@
+.li-task {
+  position: relative;
+  color:gray;
+  background: whitesmoke;
+  border-radius: 10px;
+  margin: 5px 0;
+  border-bottom: 3px solid gray;
+
+  * {
+    margin: 0;
+  }
+}
+
+.li-priority {
+  height: 15px;
+  width: 15px;
+  background: lightpink;
+  position: absolute;
+  right: 0;
+  border-radius: 0 10px 0 10px;
+}

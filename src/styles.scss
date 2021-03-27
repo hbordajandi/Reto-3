@@ -12,3 +12,16 @@ app-root {
   display: flex;
   flex-direction: column;
 }
+
+app-container:nth-child(even) .li-todo-list {
+  background:  rgba(188, 143, 143, 0.993);
+}
+
+.li-cancel {
+  font-family: 'Helvetica';
+  position: absolute;
+  left: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  color: rgb(255, 109, 109);
+}
