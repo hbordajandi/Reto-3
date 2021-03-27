@@ -1,3 +1,22 @@
-.contenedor {
-    display:flex;
+.li-todo-list {
+  display: flex;
+  position: relative;
+  margin: 0 10px;
+  flex-direction: column;
+  flex: 1;
+  height: 100%;
+  color:white;
+  border-radius: 15px;
+  background-color: rgba(188, 143, 143, 0.993);
+
+  .li-todo-image {
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
 }
